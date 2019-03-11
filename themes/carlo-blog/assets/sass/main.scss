@@ -12,24 +12,3 @@
 @import "layout/header";
 
 @import "pages/home";
-
-/* Small devices (iPhone X, 350px and up) */
-@media only screen and (min-width: 350px) {
-    html {
-        font-size: 45%;
-    }
-} 
-
-/* Small devices (portrait tablets and large phones, 550px and up) */
-@media only screen and (min-width: 550px) {
-    html {
-        font-size: 55%;
-    }
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    html {
-        font-size: 62.5%;
-    }
-} 

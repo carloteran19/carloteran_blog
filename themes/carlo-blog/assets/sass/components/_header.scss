@@ -1,13 +1,5 @@
 .header {
     height: 100vh;
-    background-image: linear-gradient(to left top, 
-    rgba(255, 253, 253, 0.801),
-     rgba(117, 168, 197, 0.822)), 
-     url(../img/img-background.jpg);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100vh); 
 
     &__logo-box {
         position: absolute;
