@@ -32,7 +32,7 @@ body {
 /* Mobile First */
 html {
   font-size: 40%;
-  background: url(images/background-gradient-1200.jpg) no-repeat center center fixed;
+  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-900.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +41,7 @@ html {
 @media only screen and (min-width: 768px) {
   html {
     font-size: 55%;
-    background: url(images/background-gradient-1200.jpg) no-repeat center center fixed;
+    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1200.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ html {
 @media only screen and (min-width: 992px) {
   html {
     font-size: 62.5%;
-    background: url(images/background-gradient-1200.jpg) no-repeat center center fixed;
+    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1400.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,19 +59,18 @@ html {
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 65%;
-    background: url(images/background-gradient-1200.jpg) no-repeat center center fixed;
+    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1700.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; } }
 
 .heading-primary--main {
-  margin-top: 1.5rem;
   color: #ffffff;
   display: block;
-  font-size: 1.4rem;
-  font-weight: 400;
-  letter-spacing: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
   animation: moveInRight 1s ease-out; }
 
@@ -81,16 +80,24 @@ body {
   line-height: 1.7;
   color: #777; }
 
+/* Small devices (iPhone X, 350px and up) */
+/* Mobile First */
 .header {
   height: 100vh; }
   .header__logo-box {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    backface-visibility: hidden; }
+    transform: translate(-50%, -50%); }
   .header__logo {
-    height: 11rem;
+    height: 13vh;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
+  .header__text-box {
+    position: absolute;
+    top: 51%;
+    left: 50.35%;
+    transform: translate(-50%, -50%);
+    width: 28em;
+    text-align: center; }
