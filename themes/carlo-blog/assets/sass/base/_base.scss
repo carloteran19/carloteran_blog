@@ -31,7 +31,6 @@ rgba(0, 0, 0, 0.767)),
 // Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 768px) {
     html {
-      font-size: 55%;
       background: 
       linear-gradient(to left bottom, 
     rgba(0, 0, 0, 0.719),
@@ -47,7 +46,6 @@ rgba(0, 0, 0, 0.767)),
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 992px) {
     html {
-        font-size: 62.5%;
         background: 
         linear-gradient(to left bottom, 
       rgba(0, 0, 0, 0.719),
@@ -63,7 +61,6 @@ rgba(0, 0, 0, 0.767)),
 // Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
     html {
-        font-size: 65%;
         background:
         linear-gradient(to left bottom, 
       rgba(0, 0, 0, 0.719),

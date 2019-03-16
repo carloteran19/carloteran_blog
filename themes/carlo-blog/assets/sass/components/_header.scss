@@ -1,6 +1,5 @@
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
-
 .header {
     height: 100vh;
 
@@ -12,34 +11,47 @@
     }
 
     &__logo {
-        height: 13vh;
+        height: 11.5rem;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
         
+        /*iPhone 5 and SE*/
+        @media only screen and (max-width: 360px) {
+            height: 9rem;
+        } 
     }
 
     &__text-box {
         position: absolute;
-        top: 51%;
+        top: 50%;
         left: 50.35%;
         transform: translate(-50%, -50%);
-        width: 28em;
+        width: 28rem;
         text-align: center; 
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 768px) {
+    .header__logo {
+        height: 13rem;
+    }
 } 
   
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 992px) {
+    .header__logo {
+        height: 11rem;
+    }
 }
    
 // Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
+    .header__logo {
+        height: 11rem;
+    }
 } 
   
 

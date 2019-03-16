@@ -40,7 +40,6 @@ html {
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 55%;
     background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1200.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,7 +48,6 @@ html {
 
 @media only screen and (min-width: 992px) {
   html {
-    font-size: 62.5%;
     background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1400.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,7 +56,6 @@ html {
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 65%;
     background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1700.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -68,11 +65,15 @@ html {
 .heading-primary--main {
   color: #ffffff;
   display: block;
-  font-size: 1.6rem;
-  font-weight: 200;
+  font-size: 1.8rem;
+  font-weight: 280;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
-  animation: moveInRight 1s ease-out; }
+  animation: moveInRight 1s ease-out;
+  /*iPhone 5 and SE*/ }
+  @media only screen and (max-width: 360px) {
+    .heading-primary--main {
+      font-size: 1.5rem; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -90,14 +91,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); }
   .header__logo {
-    height: 13vh;
+    height: 11.5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function: ease-out; }
+    animation-timing-function: ease-out;
+    /*iPhone 5 and SE*/ }
+    @media only screen and (max-width: 360px) {
+      .header__logo {
+        height: 9rem; } }
   .header__text-box {
     position: absolute;
-    top: 51%;
+    top: 50%;
     left: 50.35%;
     transform: translate(-50%, -50%);
-    width: 28em;
+    width: 28rem;
     text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  .header__logo {
+    height: 13rem; } }
+
+@media only screen and (min-width: 992px) {
+  .header__logo {
+    height: 11rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .header__logo {
+    height: 11rem; } }
