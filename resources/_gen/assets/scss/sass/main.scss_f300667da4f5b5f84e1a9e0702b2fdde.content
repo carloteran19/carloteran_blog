@@ -62,11 +62,15 @@ html {
     -o-background-size: cover;
     background-size: cover; } }
 
+/* Small devices (iPhone X, 350px and up) */
+/* Mobile First */
 .heading-primary--main {
+  margin-top: 1rem;
+  min-width: 30rem;
   color: #ffffff;
   display: block;
   font-size: 1.8rem;
-  font-weight: 280;
+  font-weight: 300;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   animation: moveInRight 1s ease-out;
@@ -81,6 +85,19 @@ body {
   line-height: 1.7;
   color: #777; }
 
+@media only screen and (min-width: 768px) {
+  .heading-primary--main {
+    font-size: 1.9rem; } }
+
+@media only screen and (min-width: 992px) {
+  .heading-primary--main {
+    font-size: 1.95rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .heading-primary--main {
+    font-size: 2rem;
+    margin-top: 1.2rem; } }
+
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
 .homepage {
@@ -89,7 +106,8 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    text-align: center; }
   .homepage__logo {
     height: 11.5rem;
     animation-name: moveInLeft;
@@ -99,22 +117,15 @@ body {
     @media only screen and (max-width: 360px) {
       .homepage__logo {
         height: 9rem; } }
-  .homepage__text-box {
-    position: absolute;
-    top: 50%;
-    left: 50.35%;
-    transform: translate(-50%, -50%);
-    width: 28rem;
-    text-align: center; }
 
 @media only screen and (min-width: 768px) {
   .homepage__logo {
-    height: 13rem; } }
+    height: 12rem; } }
 
 @media only screen and (min-width: 992px) {
   .homepage__logo {
-    height: 11rem; } }
+    height: 12.5rem; } }
 
 @media only screen and (min-width: 1200px) {
   .homepage__logo {
-    height: 11rem; } }
+    height: 12.7rem; } }
