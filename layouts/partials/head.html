@@ -6,7 +6,7 @@
   {{ $sass := resources.Get "sass/main.scss" }}
   {{ $style := $sass | resources.ToCSS }}  
   <style>{{ $style.Content | safeCSS }}</style>
-  <link rel="shortcut icon" type="image/png" href="">
+  <link rel="shortcut icon" type="image/png" href="images/Carlo_favicon.png">
   
   <title>{{ .Title }}</title>
 </head>
