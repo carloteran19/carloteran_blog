@@ -1,6 +1,6 @@
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
-.header {
+.homepage {
     height: 100vh;
 
     &__logo-box {
@@ -35,23 +35,22 @@
 
 // Medium devices (tablets, 768px and up)
 @media only screen and (min-width: 768px) {
-    .header__logo {
+    .homepage__logo {
         height: 13rem;
     }
 } 
   
 // Large devices (desktops, 992px and up)
 @media only screen and (min-width: 992px) {
-    .header__logo {
+    .homepage__logo {
         height: 11rem;
     }
 }
    
 // Extra large devices (large desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
-    .header__logo {
+    .homepage__logo {
         height: 11rem;
     }
 } 
   
-

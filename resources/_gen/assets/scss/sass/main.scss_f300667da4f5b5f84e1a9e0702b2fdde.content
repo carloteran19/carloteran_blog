@@ -83,23 +83,23 @@ body {
 
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
-.header {
+.homepage {
   height: 100vh; }
-  .header__logo-box {
+  .homepage__logo-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  .header__logo {
+  .homepage__logo {
     height: 11.5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     /*iPhone 5 and SE*/ }
     @media only screen and (max-width: 360px) {
-      .header__logo {
+      .homepage__logo {
         height: 9rem; } }
-  .header__text-box {
+  .homepage__text-box {
     position: absolute;
     top: 50%;
     left: 50.35%;
@@ -108,13 +108,13 @@ body {
     text-align: center; }
 
 @media only screen and (min-width: 768px) {
-  .header__logo {
+  .homepage__logo {
     height: 13rem; } }
 
 @media only screen and (min-width: 992px) {
-  .header__logo {
+  .homepage__logo {
     height: 11rem; } }
 
 @media only screen and (min-width: 1200px) {
-  .header__logo {
+  .homepage__logo {
     height: 11rem; } }
