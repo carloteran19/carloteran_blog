@@ -1,4 +1,4 @@
-# Carlo Teran Blog Website
+# Carlo Teran Blog
 
 Out of the box site built with [HUGO](https://gohugo.io/) and [HUGO Pipes](https://gohugo.io/hugo-pipes/introduction/) as the asset pipeline.
 
