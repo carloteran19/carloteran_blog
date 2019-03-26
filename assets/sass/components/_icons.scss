@@ -1,0 +1,22 @@
+/* Social Icons */
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8rem;
+
+  a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+
+
+

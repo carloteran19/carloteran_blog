@@ -16,59 +16,6 @@ body {
 html {
   // Defines what 1rem is
   font-size: 40%;
-  // Perfect Background image based on display size.
-  background: 
-  linear-gradient(to left bottom, 
-rgba(0, 0, 0, 0.719),
-rgba(0, 0, 0, 0.767)), 
-  url(images/background-900.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
-// Medium devices (tablets, 768px and up)
-@media only screen and (min-width: 768px) {
-    html {
-      background: 
-      linear-gradient(to left bottom, 
-    rgba(0, 0, 0, 0.719),
-    rgba(0, 0, 0, 0.767)), 
-      url(images/background-1200.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-} 
 
-// Large devices (desktops, 992px and up)
-@media only screen and (min-width: 992px) {
-    html {
-        background: 
-        linear-gradient(to left bottom, 
-      rgba(0, 0, 0, 0.719),
-      rgba(0, 0, 0, 0.767)), 
-        url(images/background-1400.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
- 
-// Extra large devices (large desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {
-    html {
-        background:
-        linear-gradient(to left bottom, 
-      rgba(0, 0, 0, 0.719),
-      rgba(0, 0, 0, 0.767)), 
-        url(images/background-1700.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-} 

@@ -31,36 +31,7 @@ body {
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
 html {
-  font-size: 40%;
-  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-900.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-@media only screen and (min-width: 768px) {
-  html {
-    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1200.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; } }
-
-@media only screen and (min-width: 992px) {
-  html {
-    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1400.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; } }
-
-@media only screen and (min-width: 1200px) {
-  html {
-    background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1700.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; } }
+  font-size: 40%; }
 
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
@@ -69,15 +40,15 @@ html {
   min-width: 30rem;
   color: #ffffff;
   display: block;
-  font-size: 1.8rem;
-  font-weight: 300;
-  letter-spacing: 0.3rem;
+  font-size: 1.65rem;
+  font-weight: 280;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   animation: moveInRight 1s ease-out;
   /*iPhone 5 and SE*/ }
   @media only screen and (max-width: 360px) {
     .heading-primary--main {
-      font-size: 1.5rem; } }
+      font-size: 1.2rem; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -98,10 +69,30 @@ body {
     font-size: 2rem;
     margin-top: 1.2rem; } }
 
+/* Social Icons */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8rem; }
+  .social a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem; }
+
+ion-icon {
+  font-size: 32px; }
+
 /* Small devices (iPhone X, 350px and up) */
 /* Mobile First */
 .homepage {
-  height: 100vh; }
+  height: 100vh;
+  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-900.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   .homepage__logo-box {
     position: absolute;
     top: 40%;
@@ -117,15 +108,30 @@ body {
     @media only screen and (max-width: 360px) {
       .homepage__logo {
         height: 9rem; } }
-
-@media only screen and (min-width: 768px) {
-  .homepage__logo {
-    height: 12rem; } }
-
-@media only screen and (min-width: 992px) {
-  .homepage__logo {
-    height: 12.5rem; } }
-
-@media only screen and (min-width: 1200px) {
-  .homepage__logo {
-    height: 12.7rem; } }
+  @media only screen and (min-width: 768px) {
+    .homepage {
+      background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1200.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      .homepage .homepage__logo {
+        height: 12rem; } }
+  @media only screen and (min-width: 992px) {
+    .homepage {
+      background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1400.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      .homepage .homepage__logo {
+        height: 12.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .homepage {
+      background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.767)), url(images/background-1700.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      .homepage .homepage__logo {
+        height: 12.7rem; } }
